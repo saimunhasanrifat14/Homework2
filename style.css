@@ -1,27 +1,47 @@
-.title{
+body {
+    width: 100%;
+}
+
+.title {
     font-family: Arial, Helvetica, sans-serif;
 }
-.title h1{
+
+.title h1 {
     margin-bottom: 5px;
     font-size: 3em;
 }
-.title h4{
+
+.title h4 {
     margin-top: 5px;
     margin-bottom: 40px;
 }
 
-.car-and-road{
+.car-and-road {
     background-image: url(road.png);
     width: 100%;
     height: 250px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.car-and-road img{
+
+.car-and-road img {
     width: 90px;
 
 }
-#cartwo{
+
+#cartwo {
     width: 130px;
     margin-top: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+    .car-and-road {
+        background-image: url(road.png);
+        background-size: 1555px;
+        height: 250px;
+    }
+
+    html {
+        width: 100%;
+    }
 }
